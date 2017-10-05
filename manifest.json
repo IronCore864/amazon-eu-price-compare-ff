@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "amazon-eu-price-compare",
+  "version": "1.0.0",
+
+  "description": "",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "<all_urls>"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/icon-32.png",
+    "default_title": "Amazon EU Price Compare",
+    "default_popup": "popup/popup.html"
+  }
+}
